@@ -1,6 +1,6 @@
 import openpyxl as excel
 
-book = excel.load_workbook("./oupput/hello.xlsx")
+book = excel.load_workbook("./output/hello.xlsx")
 
 sheet = book.worksheets[0]
 
