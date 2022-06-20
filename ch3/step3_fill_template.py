@@ -14,7 +14,6 @@ if not os.path.exists(out_dir): os.mkdir(out_dir)  # 폴더 생성
 # 발행 일자 지정
 issue_date = datetime.datetime(2022, 4, 1).strftime('%Y/%m/%d')
 
-
 # 메인 처리
 def fill_template():
     # json 파일 읽기
