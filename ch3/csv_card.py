@@ -17,7 +17,7 @@ def read_csv(fname):
 # 엑셀 파일 읽기
 book = excel.load_workbook(template_file)
 
-# 템플릿 시ㅡㅌ 가져오기
+# 템플릿 시트 가져오기
 sheet_tpl = book['Sheet']
 
 # csv에서 고객 목록을 가져오고 한 명씩 처리
