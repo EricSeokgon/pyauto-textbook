@@ -21,7 +21,7 @@ try:
     # 인위적으로 예외 발생시키기
     if True:
         raise Exception("엑셀을 읽던 도중 예외가 발생했습니다.")
-    print("예외가 발생하지 않으면 이 부분이 싱행됩니다.")
+    print("예외가 발생하지 않으면 이 부분이 실행됩니다.")
 except Exception as e:
     # 예외가 발생했ㅇ르 때 실행
     print('에러 메시지::', e)
